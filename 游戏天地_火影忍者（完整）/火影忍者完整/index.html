@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>游戏天地-首页</title>
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" >
+<script src="./bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./css/main.css">
+<style>
+ .carousel-inner img { /*将轮播图的图片设置为响应式*/
+	 width: 100%; height: auto; }	
+   
+</style>	
+</head>
+<body>
+<!--主导航-->
+<nav class="navbar navbar-expand-md  bg-dark navbar-dark">
+  <a class="navbar-brand" href="#"><img class="logo-responsive" src="images/logo.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/王者荣耀.html">王者荣耀</a> </li> 
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/火影忍者.html">火影忍者</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/部落冲突.html">部落冲突</a> </li>    
+      <li class="nav-item"> <a class="nav-link text-light" href="./html/游戏研究.html">游戏研究</a> </li>
+    </ul>
+  </div>
+ </nav>
+<!--轮播图-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+	<li data-target="#slides" data-slide-to="3"></li>
+	<li data-target="#slides" data-slide-to="4"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">  <a href="./html/王者荣耀.html"><img src="images/王者海报.jpg" alt="王者荣耀"></a>   </div>
+    <div class="carousel-item">  <a href="./html/火影忍者.html"><img alt="火影忍者" src="images/火影海报.jpg"></a>   </div>
+    <div class="carousel-item">  <a href="./html/部落冲突.html"><img alt="部落冲突" src="images/部落海报.jpg"></a>   </div>
+    <div class="carousel-item ">  <a href="./html/游戏研究.html"><img src="images/游戏海报.png" alt="游戏研究"></a>   </div>
+  <a class="carousel-control-prev" href="#slides" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slides" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<footer class="bg-dark text-light text-center">
+	Game World. &copy;2025
+</footer>
+</body>
+</html>
